@@ -23,30 +23,37 @@ console.log(arr)
 var findKey=arr[0]
 // console.log(findKey)
 var result=findIndex(arr,findKey)
-console.log(findKey+"\tBinary search result - index:  " + result)
+logResult(findKey,result, arr[result])
 
 findKey=arr[4]
 // console.log(findKey)
 result=findIndex(arr,findKey)
-console.log(findKey+"\tBinary search result - index:  " + result)
+logResult(findKey,result, arr[result])
 
 findKey=arr[9]
 // console.log(findKey)
 result=findIndex(arr,findKey)
-console.log(findKey+"\tBinary search result - index:  " + result)
+logResult(findKey,result, arr[result])
 
 findKey=arr[0]-1
 // console.log(findKey)
 result=findIndex(arr,findKey)
-console.log(findKey+"\tBinary search result - index:  " + result)
+logResult(findKey,result, arr[result])
 
 
 findKey=arr[arr.length-1]+1
 // console.log(findKey)
 result=findIndex(arr,findKey)
-console.log(findKey+"\tBinary search result - index:  " + result)
+logResult(findKey,result, arr[result])
 
 findKey=Math.round((arr[arr.length-1] + arr[0]) / 3)
 // console.log(findKey)
 result=findIndex(arr,findKey)
-console.log(findKey+"\tBinary search result - index:  " + result)
+// console.log(findKey+"\tBinary search result - index:  " + result)
+logResult(findKey,result, arr[result])
+
+
+function logResult(findKey,findIndex,findVal){
+    
+    console.log(`${findKey} \t Binary Search Result: index - ${findIndex}, value - ${findVal} `)
+}
