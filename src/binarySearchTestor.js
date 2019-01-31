@@ -55,5 +55,5 @@ logResult(findKey,result, arr[result])
 
 function logResult(findKey,findIndex,findVal){
     
-    console.log(`${findKey} \t Binary Search Result: index - ${findIndex}, \t value - ${findVal} `)
+    console.log(`${findKey} \t Binary Search Result: index - \t${findIndex}, value - \t ${findVal} `)
 }
