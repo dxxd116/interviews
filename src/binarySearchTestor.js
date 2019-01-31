@@ -1,5 +1,3 @@
-var assert=require('assert')
-
 var binarySearcher=require("./binarySearcher.js")
 var findIndex=binarySearcher.findIndex;
 
