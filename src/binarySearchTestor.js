@@ -19,13 +19,6 @@ arr.sort(function(a,b){
 })
 console.log(arr)
 
-// var searches=[0,1,3,29]
-// searches.forEach((index)=>{
-//     var findKey=arr[index]
-//     console.log(findIndex(arr,findKey))
-//     assert(findIndex(arr,findKey)==index, `Fail to find ${findKey} at ${index} position`)
-// })
-
 
 var findKey=arr[0]
 // console.log(findKey)

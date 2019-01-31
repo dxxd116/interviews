@@ -2,7 +2,7 @@
 function findIndex( sortedArr ,findKey){
    // sortedArr: sorted array of integer in ascending order
    // findKey: integer to be found in the sortedArray
-    return -1
+    
 }
 
 function binarySearchIndex(sortedArr,findKey,start,end ){
